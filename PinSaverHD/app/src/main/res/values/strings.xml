@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PinSaver HD</string>
+
+    <string name="link_label">Enlace del Pin</string>
+    <string name="link_placeholder">https://pin.it/…</string>
+    <string name="paste">Pegar</string>
+    <string name="analyze">Buscar video</string>
+    <string name="clear">Borrar</string>
+    <string name="auto_download_title">Descarga automática</string>
+    <string name="auto_download_desc">Al compartir un Pin con la app, descarga la mejor calidad directamente</string>
+
+    <string name="how_to_title">Cómo usarla</string>
+    <string name="how_to_step1">En Pinterest abre el video y toca Compartir.</string>
+    <string name="how_to_step2">Elige PinSaver HD en la lista, o copia el enlace y pégalo aquí.</string>
+    <string name="how_to_step3">Elige la calidad (la más alta viene marcada) y toca Descargar.</string>
+    <string name="how_to_footer">Los videos se guardan en Películas/PinSaverHD y aparecen en tu galería. Descarga solo contenido propio o con permiso de su autor.</string>
+
+    <string name="loading">Buscando el video en la mejor calidad…</string>
+
+    <string name="error_empty">Pega primero un enlace de Pinterest.</string>
+    <string name="error_invalid">Ese enlace no parece de un Pin de Pinterest. Usa un enlace como https://pin.it/… o https://pinterest.com/pin/…</string>
+    <string name="error_network">No se pudo conectar con Pinterest. Revisa tu conexión e inténtalo otra vez.</string>
+    <string name="error_not_found">Ese Pin no existe o es privado.</string>
+    <string name="error_no_video">No se encontró un video descargable en este Pin. Puede ser una imagen o un video de otra web (por ejemplo YouTube).</string>
+    <string name="error_unknown">Ocurrió un error inesperado: %1$s</string>
+    <string name="retry">Reintentar</string>
+
+    <string name="video">Video</string>
+    <string name="clip_n">Video %1$d de %2$d</string>
+    <string name="pin_id">Pin %1$s</string>
+    <string name="duration">Duración: %1$s</string>
+    <string name="best_quality">Mejor calidad: %1$s</string>
+    <string name="choose_quality">Calidad</string>
+    <string name="quality_unknown">Calidad desconocida</string>
+    <string name="hd">HD</string>
+    <string name="kind_mp4">MP4</string>
+    <string name="kind_hls">HLS → MP4</string>
+    <string name="hevc">HEVC</string>
+    <string name="size_estimated">~%1$s</string>
+    <string name="download_quality">Descargar %1$s</string>
+    <string name="download">Descargar</string>
+
+    <string name="downloads">Descargas</string>
+    <string name="preparing">Preparando…</string>
+    <string name="downloading">Descargando…</string>
+    <string name="converting">Convirtiendo a MP4…</string>
+    <string name="progress_percent">%1$d %%</string>
+    <string name="saved">Guardado en Películas/PinSaverHD</string>
+    <string name="open">Abrir</string>
+    <string name="share">Compartir</string>
+    <string name="download_failed">No se pudo descargar: %1$s</string>
+    <string name="share_chooser">Compartir video</string>
+
+    <string name="permission_denied">Se necesita el permiso de almacenamiento para guardar videos.</string>
+    <string name="clipboard_empty">El portapapeles no tiene ningún enlace.</string>
+    <string name="no_app_to_open">No hay ninguna app para abrir este video.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Play triangle above a download tray, centred in the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46,34.5 C46,32.9 47.7,31.9 49.1,32.7 L68.6,44.2 C70,45 70,47 68.6,47.8 L49.1,59.3 C47.7,60.1 46,59.1 46,57.5 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M37,66 L71,66 C72.7,66 74,67.3 74,69 C74,70.7 72.7,72 71,72 L37,72 C35.3,72 34,70.7 34,69 C34,67.3 35.3,66 37,66 Z" />
+</vector>
