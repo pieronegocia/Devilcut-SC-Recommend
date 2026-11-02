@@ -9,6 +9,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.io.File
@@ -36,6 +37,7 @@ object GallerySaver {
             saveLegacy(context, source, displayName)
         }
 
+    @RequiresApi(Build.VERSION_CODES.Q)
     private fun saveWithMediaStore(context: Context, source: File, displayName: String): Uri {
         val resolver = context.contentResolver
         val collection = MediaStore.Video.Media.getContentUri(MediaStore.VOLUME_EXTERNAL_PRIMARY)
